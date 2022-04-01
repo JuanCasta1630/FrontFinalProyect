@@ -207,14 +207,14 @@ main .cards{
     justify-content: center;
 }
 
-main .person{
+main .person, .person1, .person2{
     background-color: #f5f5f5;
     width: 445px;
     position: relative;
     margin: 25px;
 }
 
-main .photo{
+main .photo, .photo1, .photo2{
     position: absolute;
     width: 70px;
     height: 70px;
@@ -222,7 +222,7 @@ main .photo{
     top: -35px
 }
 
-main .name{
+main .name, .name1, .name2{
     font-family: 'Be Vietnam Pro';
     font-weight: 700;
     text-align: center;
@@ -231,7 +231,7 @@ main .name{
     margin-top: 50px;
 }
 
-main .description{
+main .description, .description1, .description2{
     font-family: 'Be Vietnam Pro';
     font-weight: 500;
     font-size: 16px;
@@ -567,5 +567,28 @@ footer .fa-facebook-square, .fa-youtube, .fa-twitter, .fa-pinterest, .fa-instagr
     color: #fff;
 }
 
+footer .fa-facebook-square:hover, .fa-youtube:hover, .fa-twitter:hover, .fa-pinterest:hover, .fa-instagram:hover{
+    color:#F3603B;
+    transform: scale(1.5);
+    cursor: pointer;
 }
+
+main .person1, .person2{
+    display:none
+}
+
+main .photo1, .photo2{
+    display:none
+}
+
+main .name1, .name2{
+    display:none
+}
+
+main .description1, .description2{
+    display:none
+}
+
+}
+
 
